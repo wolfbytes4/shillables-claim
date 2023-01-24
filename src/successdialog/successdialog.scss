@@ -1,0 +1,37 @@
+$grey:#746C70;
+$ivory:#E2DED0;
+$bluegreydark:#647C90;
+$bluegrey: #8aa9c3;
+$coolgrey:#4E4F50;
+$darkgrey: #3a3a3a;
+#success-dialog{  
+    img{
+        width:255px;    
+    }
+    text-align: center;
+
+    .close-button {
+        width: 100%;
+        padding: 15px;
+        margin-top: 20px;
+        text-align: center;
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: 1px;
+        display: inline-block;
+        background-color: transparent;
+        border: 1px solid #fff;
+        text-decoration: none;
+        color: #fff !important;
+        transition: all 0.3s ease-in;
+        position: relative;
+        z-index: 1;
+        background: linear-gradient(to right, $darkgrey, #46bf5b);
+    }
+
+    .MuiPaper-root{
+        background-color: $darkgrey;
+        color: $ivory;
+    }
+     
+}
