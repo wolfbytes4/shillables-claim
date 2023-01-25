@@ -130,7 +130,7 @@ class App extends Component {
             <img src='./images/shillsuccess.png' className="shillionaire" />
           </div>
           <div className="shill-sub-txt">
-            SO YOU WAN'T TO BE A SHILLIONAIRE?
+            SO YOU WANT TO BE A SHILLIONAIRE?
           </div>
         </div>
         <div className="steps">
